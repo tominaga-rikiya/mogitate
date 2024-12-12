@@ -1,0 +1,58 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    /* 画像の最大幅を設定 */
+    margin-bottom: 20px;
+}
+
+.product-item h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+
+.search-form {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input {
+    padding: 8px;
+    width: 200px;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}

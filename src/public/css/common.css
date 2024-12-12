@@ -1,0 +1,9 @@
+.header {
+    padding: 10px 20px 10px 20px;
+    width: auto;
+    border-bottom: 1px solid #F4F4F4;
+    color: #F5C800;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
